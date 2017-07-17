@@ -3,8 +3,11 @@ body {
 }
 
 .infos {
-  width: 100%;
+  width: 80%;
   height: auto;
+  border: 2px solid red;
+  display: block;
+  margin: auto;
 }
 
 #residential,

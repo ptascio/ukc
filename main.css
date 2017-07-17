@@ -1,9 +1,7 @@
-html {
-  background: transparent;
-}
 
-body {
-  background-color: #479b47;
+
+.body {
+  background-color: #15317E;
 }
 
 h1, h2, h3, h4, h5, h6, p, div {
@@ -12,11 +10,22 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 p {
   font-size: 18px;
+  color: #15317E;
 }
 
 #jumbotron-overrides {
-  background-color: #479b47;
+  background-color: #15317E;
   border-radius: 0;
+  color: #fff;
+}
+
+#jumbotron-overrides a {
+  color: #fff;
+}
+
+#jumbotron-overrides a:hover {
+  color: #74B4FA;
+  text-decoration: none;
 }
 
 #jumbotron-container-overrides {
@@ -27,12 +36,12 @@ p {
 .infos {
   width: 80%;
   height: auto;
-  border: 2px solid red;
+  border: 2px solid #fff;
   display: block;
   margin: auto;
   margin-top: -30px;
   margin-bottom: 40px;
-  background-color: #84b784;
+  background-color: #74B4FA;
 }
 
 #residential,

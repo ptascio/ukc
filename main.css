@@ -44,6 +44,10 @@ p {
   background-color: #74B4FA;
 }
 
+.infos a {
+  color: #fff;
+}
+
 #residential,
 #agricultural {
   height: auto;

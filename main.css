@@ -74,4 +74,8 @@ p {
   #pagination>li>a {
     margin: 5px;
   }
+  #stable-img {
+    height: 80%;
+    width: 80%;
+  }
 }

@@ -13,6 +13,11 @@ p {
   color: #15317E;
 }
 
+#pagination>li:first-child>a,
+#pagination>li:last-child>a {
+  border-radius: 0;
+}
+
 #jumbotron-overrides {
   background-color: #15317E;
   border-radius: 0;
@@ -60,9 +65,8 @@ p {
   height: auto;
 }
 
-@media screen and (max-width: 531px){
+@media screen and (max-width: 725px) {
   #pagination {
-    border: 1px solid #000;
     text-align: center;
   }
 
@@ -74,6 +78,10 @@ p {
   #pagination>li>a {
     margin: 5px;
   }
+}
+
+@media screen and (max-width: 531px){
+
   #stable-img {
     height: 80%;
     width: 80%;

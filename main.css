@@ -18,6 +18,18 @@ p {
   border-radius: 0;
 }
 
+#pagination>li>a {
+  background-color: #74B4FA;
+  border: none;
+  color: #fff;
+}
+
+#pagination>li>a:hover {
+  background-color: #fff;
+  padding: 6px 12px;
+  color: #15317E;
+}
+
 #jumbotron-overrides {
   background-color: #15317E;
   border-radius: 0;
@@ -28,9 +40,12 @@ p {
   color: #fff;
 }
 
-#jumbotron-overrides a:hover {
-  color: #74B4FA;
+#jumbotron-overrides a:hover,
+.infos a:hover  {
+  color: #15317E;
   text-decoration: none;
+  background: #fff;
+  padding: 5px;
 }
 
 #jumbotron-container-overrides {
@@ -53,10 +68,10 @@ p {
   color: #fff;
 }
 
-.infos a:hover {
+/*.infos a:hover {
   text-decoration: none;
    color: #15317E;
-}
+}*/
 
 
 

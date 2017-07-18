@@ -48,6 +48,13 @@ p {
   color: #fff;
 }
 
+.infos a:hover {
+  text-decoration: none;
+   color: #15317E;
+}
+
+
+
 #residential,
 #agricultural {
   height: auto;
